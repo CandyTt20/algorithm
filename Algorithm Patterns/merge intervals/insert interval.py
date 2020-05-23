@@ -5,7 +5,7 @@ class Solution(object):
         :type newInterval: List[int]
         :rtype: List[List[int]]
         """
-        return self.merge(self.newList(intervals,newInterval))
+        return self.merge(self.newList(intervals, newInterval))
 
     def merge(self, intervals):
         """
@@ -48,7 +48,7 @@ class Solution(object):
 
 
 intervals = [[1, 2], [3, 5], [6, 7], [8, 10], [12, 16]]
-newInterval = [4,8]
+newInterval = [4, 8]
 x = Solution()
 
-print(x.insert(intervals,newInterval))
+print(x.insert(intervals, newInterval))

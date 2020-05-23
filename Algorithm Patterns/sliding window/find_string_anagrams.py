@@ -28,6 +28,7 @@ def find_string_anagrams(s, pattern):
     return result_indexes
 
 
+
 s = "abab"
 p = "c"
 print(find_string_anagrams(s, p))

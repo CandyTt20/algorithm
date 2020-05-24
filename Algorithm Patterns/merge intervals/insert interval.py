@@ -52,3 +52,4 @@ newInterval = [4, 8]
 x = Solution()
 
 print(x.insert(intervals, newInterval))
+

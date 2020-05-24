@@ -44,6 +44,7 @@ class Solution(object):
             pre = cur
             cur = temp
         return pre
+# s
 
 
 head = ListNode(1)

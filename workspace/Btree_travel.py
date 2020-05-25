@@ -10,11 +10,11 @@ class Btree(object):
             return
         li = [root]
         while li:
-            cur = li.pop(0)
+            cur = li.pop(0) 
             print(cur.x, end=' ')
             if cur.lchild is not None:
                 li.append(cur.lchild)
-            if cur.rchild is not None:
+            if cur.rchild is not None:  
                 li.append(cur.rchild)
 
     def preorder(self, root):
